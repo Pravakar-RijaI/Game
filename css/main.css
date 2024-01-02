@@ -1,6 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
 /*RESET STYLES*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/*VARIABLE DECLARATIONS */
+--FF: "Rubik Scribble";
+
+
+
+
+/*GENERAL STYLES*/
+body{
+  font-family: var(--FF);
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  
