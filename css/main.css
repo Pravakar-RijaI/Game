@@ -26,4 +26,28 @@ body{
   align-items: center;
 }
 
-  
+.main__figure{
+  width: 90vw;
+  height: 90vh;
+}
+
+.main__rock,.main__paper,.main__scissors{
+  height: 90vh;
+  z-index: 0;
+}
+
+.main__rock{
+  animation: shuffle 2s infinite;
+}
+
+@keyframes shuffle{
+  0%{
+    transform: translateY(-50px);
+
+  }
+  /* 100%{
+    transform: translateY(-100px);
+
+  } */
+}
+
